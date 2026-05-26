@@ -1,0 +1,15 @@
+{
+  "name": "fm-connect-fullstack-v3",
+  "version": "3.0.0",
+  "description": "FutureMinds Connect full-stack demo with improved admin/institute workflows and generated PNG image assets.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "reset-db": "cp data/db.seed.json data/db.json"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=18"
+  }
+}
